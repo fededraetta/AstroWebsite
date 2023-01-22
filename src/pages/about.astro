@@ -1,11 +1,12 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import {onMount} from 'svelte';
+
 
 const title = 'About';
 const description = 'About your blog.';
 const permalink = `${Astro.site.href}about`;
 ---
-
 <BaseLayout title={title} description={description} permalink={permalink} current="about">
   <div class="container" style="text-align: justify;">
     <a href="#"></a>
@@ -30,13 +31,14 @@ const permalink = `${Astro.site.href}about`;
     </p>
   
   <p>
-    Dopo essermi laureato, nel 2018, ed aver ottenuto il Cambridge English Certificate in ESOL International <a href="https://www.cambridgeenglish.org/">(First)</a>, sono partito per <a href="https://www.polimi.it/">Milano</a>.
+    Dopo essermi laureato, nel 2018, ed aver ottenuto il Cambridge English Certificate in ESOL International <a href="https://www.cambridgeenglish.org/">(First)</a>, sono partito per <a href="https://www.polimi.it/">Milano</a>. 
 
     
   </p>
-  
+
   </div>
-  <a href="#">Torna su</a>
+  
+  <script src="../components/BackToTopButton.js"></script>
 </BaseLayout>
 
 <style>

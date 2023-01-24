@@ -10,21 +10,21 @@ button.style.position = "fixed";
 button.style.bottom = "20px";
 button.style.right = "30px";
 button.style.zIndex = "99";
-button.style.fontSize = "30px";
+button.style.fontSize = "20px";
 button.style.border = "none";
 button.style.outline = "none";
-button.style.backgroundColor = "rgba(0, 0, 0,0)";
-button.style.color = "rgb(80, 142, 155)";
+button.style.backgroundColor = "rgba(58,67,77,0.5)";
+button.style.color = "rgb(167,225,233)";
 button.style.cursor = "pointer";
 button.style.padding = "15px";
-button.style.borderRadius = "4px";
+button.style.borderRadius = "15px";
 
 // Add the button to the body
 document.body.appendChild(button);
 
 // Add the scroll event listener
 window.addEventListener("scroll", function() {
-  if (window.pageYOffset > 100) {
+  if (window.pageYOffset > 500) {
     button.style.display = "block";
   } else {
     button.style.display = "none";

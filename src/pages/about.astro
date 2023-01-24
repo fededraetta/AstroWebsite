@@ -7,7 +7,6 @@ const title = 'About';
 const description = 'About your blog.';
 const permalink = `${Astro.site.href}about`;
 ---
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <BaseLayout title={title} description={description} permalink={permalink} current="about">
   <script src="../components/colorscheme.js"></script>
   <script src="../components/timeline-item.js"></script>
@@ -20,17 +19,17 @@ const permalink = `${Astro.site.href}about`;
   <ul>
     <li>
       <div>
-        <time>2015</time> Diploma </br> Liceo Scientifico Fermi, Bari
+        <time>2015</time> Diploma </br> Liceo Scientifico
       </div>
     </li>
     <li>
       <div>
-        <time>2018</time> Laurea </br> Politecnico, Bari
+        <time>2018</time> Laurea 
       </div>
     </li>
     <li>
       <div>
-        <time>04/2022</time> Laurea Magistrale </br> Politecnico, Milano
+        <time>04/2022</time> Laurea Magistrale
       </div>
     </li>
     <li>
@@ -117,8 +116,8 @@ const permalink = `${Astro.site.href}about`;
   left: 50%;
   bottom: 0;
   transform: translateX(-50%);
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   background: inherit;
   z-index: 1;
@@ -127,7 +126,7 @@ const permalink = `${Astro.site.href}about`;
 .timeline ul li div {
   position: relative;
   bottom: 0;
-  width: 400px;
+  width: 50px;
   padding: 15px;
   background: r;
 }
@@ -139,7 +138,7 @@ const permalink = `${Astro.site.href}about`;
 
 
 .timeline ul li:nth-child(even) div {
-  left: -280px;
+  left: -200px;
 }
 
 .timeline ul li:nth-child(even) div::before {

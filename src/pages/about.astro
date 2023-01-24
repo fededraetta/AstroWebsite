@@ -100,10 +100,7 @@ const permalink = `${Astro.site.href}about`;
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.timeline ul {
- 
-  padding: 50px 0;
-}
+
 
 .timeline ul li {
   list-style-type: none;
@@ -135,24 +132,11 @@ const permalink = `${Astro.site.href}about`;
   background: r;
 }
 
-.timeline ul li div::before {
-  content: "";
-  position: absolute;
-  bottom: 7px;
-  width: 0;
-  height: 0;
-  border-style: solid;
-}
-
 .timeline ul li:nth-child(odd) div {
   left: 45px;
 }
 
-.timeline ul li:nth-child(odd) div::before {
-  left: -15px;
-  border-width: 8px 16px 8px 0;
-  border-color: transparent transparent transparent;
-}
+
 
 .timeline ul li:nth-child(even) div {
   left: -280px;

@@ -7,6 +7,7 @@ const title = 'About';
 const description = 'About your blog.';
 const permalink = `${Astro.site.href}about`;
 ---
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <BaseLayout title={title} description={description} permalink={permalink} current="about">
   <script src="../components/colorscheme.js"></script>
   <script src="../components/timeline-item.js"></script>

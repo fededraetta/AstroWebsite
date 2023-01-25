@@ -6,7 +6,7 @@ const description = 'Un diario dinamico';
 const permalink = Astro.site.href;
 
 ---
-<head><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'></head>
+<head><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css'></head>
 
 <BaseLayout title={title} description={description} permalink={permalink}>
   
@@ -16,10 +16,14 @@ const permalink = Astro.site.href;
       <h2>Dottore Magistrale in Ingegneria Idraulica</h2>
       <p>Un diario delle passioni che coltivo</p>
       <p>
+        <a href = "mailto: federicodraetta@yahoo.it">
+          <span><i class="fa-solid fa-at" style="font-size: 20px;"></i></span>
+        </a>
+        &nbsp 
         <a href="https://www.linkedin.com/in/federicodraetta/" target="_blank" class="icon linkedin">
           <span><i class="fab fa-linkedin" style="font-size: 26px;"></i></span>
         </a>
-        &nbsp      
+        &nbsp     
         <a href="https://www.facebook.com/federico.draetta/" target="_blank" class="icon facebook">
           <span><i class="fab fa-facebook" style="font-size: 26px;"></i></span>
         </a>

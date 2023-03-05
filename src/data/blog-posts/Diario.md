@@ -12,12 +12,12 @@ Un raccoglitore ad anelli dei pensieri che mi attraversano.
 
 ## <a name="top"></a> Indice
 
-- [Perchè un sito](#Perchèunsito)
+- [Come pesci nella rete](#Comepescinellarete)
 - [Doccia fredda](#Docciafredda)
 ---
 
 
-# <a name="Perchèunsito"></a>Perchè un sito
+# <a name="Comepescinellarete"></a>Come pesci nella rete
 
 Sono a Roma da Luglio 2022, quindi ormai da qualche mese, e, pur vivendo (ora molto più) vicino alla mia compagna, e avendo anche amici che già vivevano a Roma da qualche tempo, abitando in un monolocale è inevitabile passare del tempo da solo. Non che mi dispiaccia o mi pesi, per inciso, anzi trovo terapeutico e a volte perfino necessario lo stare da soli, soprattutto in un mondo frenetico come questo, che ci bombarda costantemente di stimoli.
 
